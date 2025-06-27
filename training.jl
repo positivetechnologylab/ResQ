@@ -396,25 +396,3 @@ function runTraining(datasettype, LATTICE_TYPE, LATTICE_CONSTANT, train_data, te
 end
 
 runTraining(datasettype, LATTICE_TYPE, LATTICE_CONSTANT, train_data, test_data, train_labels, test_labels)
-
-# println("Delta local was fixed at 0")
-
-# asdf
-# g = zeros(14)
-# val = lossFuncWithGrad!(1.0, g, init_guess, batched_data[1], batched_labels[1] )
-
-# g
-
-# 5 datasets 2 healthcare, 2 mnist, 1 iris
-# try subsampling for larger dataset ~1000 or smaller if need be
-
-# subsample to really small set for ablation / hyperparameters
-# subsample also for lattice shape and size
-# if checkerboard works, don't do randomization
-
-# do 4 vs 9 classification
-# also do some FashionMNIST look at Proxml paper
-
-# pi/2 to 3pi/2
-
-# add in offset to higher values
